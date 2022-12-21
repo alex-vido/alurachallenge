@@ -1,0 +1,122 @@
+@media screen and (max-width: 767px) {
+
+    html {
+        margin: 0;
+    }
+    .decoder, .box-output, .text-input, .box-input, .warning, .btn-decoder, .social-media {
+        max-width: 90%;
+        margin: 1% auto;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    
+    .decoder {
+        height: 75%;
+    }
+    
+    .box-input {
+        width: 22em;
+        height: 75%;
+        
+    }
+    
+    
+    .box-output {
+        position: relative;
+        margin: 1%;
+        left: auto;
+        right: auto;
+        
+    }
+    
+    .box-output img{
+    display: none;
+}
+
+    .warning, .btn-encrypt, .btn-decrypt, .box-output {
+        margin-bottom: 5%;
+    }
+
+    .social-media, .social-media ul {
+        display: block;
+        position: relative;
+        font-size: 10px;
+        bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    html {
+        margin: 0 0 0 0;
+    }
+    
+    .decoder, .box-output, .text-input, .box-input, .warning, .social-media {
+        max-width: 95%;
+        margin: 1% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    
+    .box-logo {
+        margin: 8% 0 5% 0;
+    }
+
+    .decoder {
+        height: 100%;
+    }
+
+    .box-input {
+        width: 45em;
+        height: 100%;
+    }
+
+    .text-input {
+        width: 45em;
+        height: 15em;
+        font-size: 25px;
+    }
+
+    .text-input::placeholder {
+        text-align: left;
+
+    }
+
+    .box-output {
+        position: relative;
+        left: auto;
+        width: 90%;
+        height: auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-bottom: 10%;
+        }
+
+    .box-output p {
+        margin: 0 auto;
+    }
+    .box-output img{
+    display: none;
+    }
+
+    .btn-decoder {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .btn-encrypt {
+        margin-right: 2%;
+    }
+    .social-media, .social-media ul {
+        display: block;
+        position: relative;
+    }
+}

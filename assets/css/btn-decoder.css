@@ -1,0 +1,29 @@
+.btn-decoder {
+    margin: 1% 0;
+}
+
+.btn-encrypt:hover, .btn-decrypt {
+    cursor: pointer;
+}
+
+.btn-encrypt {
+    border: none;
+    background: var(--dark-blue-300);
+    color: white;
+    width: 310px;
+    height: 67px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-decrypt {
+    border-color: var(--dark-blue-200);
+    background: #D8DFE8;
+    color: var(--dark-blue-300);
+    width: 310px;
+    height: 67px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}

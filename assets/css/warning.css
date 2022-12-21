@@ -1,0 +1,4 @@
+.warning, .warning img {
+    display:inline;
+    color: var(--gray-400);
+}
