@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/decoder.css">
     <link rel="stylesheet" href="assets/css/warning.css">
-    <link rel="stylesheet" href="assets/css/btn-decoder.css">
+    <link rel="stylesheet" href="assets/css/btn.css">
     <link rel="stylesheet" href="assets/css/social-media.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -47,9 +47,15 @@
     </div>
 
     <div class="box-output">
-        <img src="./assets/img/img_black_decoder.svg" alt="pessoa com lupa olhando um diamante" class="img-output">
-        <h2>Nenhuma mensagem encontrada</h2>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <div class="show output-content">
+            <img src="./assets/img/img_black_decoder.svg" alt="pessoa com lupa olhando um diamante" class="img-output">
+            <h2 class="outputMainText">Nenhuma mensagem encontrada</h2>
+            <p class="outputText">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <div class="hidden">
+            <textarea wrap="hard" class="text-output"></textarea>
+            <button class="btn-copy">Copiar</button>
+        </div>
     </div>
 
     <footer>

@@ -27,3 +27,18 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+.hidden {
+    display: none;
+}
+
+.btn-copy {
+    border-color: var(--dark-blue-200);
+    background: white;
+    color: var(--dark-blue-300);
+    width: 310px;
+    height: 67px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
