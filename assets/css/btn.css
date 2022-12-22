@@ -18,7 +18,7 @@
 }
 
 .btn-decrypt {
-    border-color: var(--dark-blue-200);
+    border-color: var(--dark-blue-300);
     background: #D8DFE8;
     color: var(--dark-blue-300);
     border-style: solid;
@@ -34,7 +34,7 @@
 }
 
 .btn-copy {
-    border-color: var(--dark-blue-200);
+    border-color: var(--dark-blue-300);
     background: white;
     color: var(--dark-blue-300);
     border-style: solid;
