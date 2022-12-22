@@ -26,6 +26,10 @@
         height: 15em;
         font-size: 25px;
     }
+    .text-output {
+        width: 10em;
+        height: 10em;
+    }
 
     .box-input {
         width: 22em;
