@@ -21,6 +21,7 @@
     border-color: var(--dark-blue-200);
     background: #D8DFE8;
     color: var(--dark-blue-300);
+    border-style: solid;
     width: 310px;
     height: 67px;
     border-radius: 20px;
@@ -36,6 +37,7 @@
     border-color: var(--dark-blue-200);
     background: white;
     color: var(--dark-blue-300);
+    border-style: solid;
     width: 310px;
     height: 67px;
     border-radius: 20px;
